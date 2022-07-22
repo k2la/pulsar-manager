@@ -1582,7 +1582,7 @@ export default {
       this.dialogFormVisible = true
       this.form.topic = ''
       this.form.isPersistent = 'Persistent'
-      this.form.partitions = 0
+      this.form.partitions = 1
     },
     generalCreateTopic(persistent) {
       putTopic(
